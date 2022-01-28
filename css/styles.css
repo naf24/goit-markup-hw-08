@@ -636,20 +636,25 @@ li {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero__btn:hover.hero__icon,
-.hero__btn:hover.hero__icon {
-  fill: var(--white);
-}
 .hero__buttons {
   margin-bottom: 50px;
 }
 
-.hero__btn:hover.hero__icon,
-.hero__btn:focus.hero__icon {
+.hero__btn:hover .hero__icon,
+.hero__btn:hover .hero__icon {
   fill: var(--white);
 }
-.hero__btn:focus.hero__icon:focus {
+
+.hero__icon:hover,
+.hero__icon:focus {
+  background-color: var(--accent-color);
   fill: var(--white);
+}
+
+.hero__btn:hover .hero__icon,
+.hero__btn:focus .hero__icon {
+  fill: var(--white);
+  background-color: var(--accent-color);
 }
 
 /*Постоянные клиенты*/
