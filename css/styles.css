@@ -456,7 +456,39 @@ li {
 
 /* Преимущества */
 
-.features-title {
+.features-section {
+  padding-bottom: 0;
+}
+
+.features-section__list {
+  display: flex;
+}
+
+.features-section__item {
+  width: 270px;
+}
+
+.features-section__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.features-section__part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-bottom: 30px;
+  width: 100%;
+  height: 120px;
+  background-color: var(--backround-middle);
+}
+
+.features-section__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.features-section__title {
   color: var(--title-text-color);
   font-weight: bold;
   font-size: 14px;
@@ -465,33 +497,6 @@ li {
   text-transform: uppercase;
   text-align: left;
   margin-bottom: 10px;
-}
-.features-section {
-  padding-bottom: 0;
-}
-.features-container {
-  display: flex;
-}
-.features-list {
-  width: 270px;
-}
-.features-list:not(:last-child) {
-  margin-right: 30px;
-}
-
-.features-list-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 30px;
-
-  width: 100%;
-  height: 120px;
-  background-color: var(--backround-middle);
-}
-.features-icon {
-  width: 70px;
-  height: 70px;
 }
 
 .text {
