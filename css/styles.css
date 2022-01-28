@@ -183,7 +183,34 @@ li {
 
 /* Кнопка */
 
-.btn {
+.button-section {
+  background-color: #2f303a;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-bottom: var(--base-margin);
+}
+
+.overlay {
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../imgs/bckgr.jpg);
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 1px solid var(--title-text-color);
+}
+
+.button-section__button {
   min-width: 200px;
   margin: 0;
   padding-bottom: 200px;
@@ -208,21 +235,12 @@ li {
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.btn:hover,
-.btn:focus {
+.button-section__button:hover,
+.button-section__button:focus {
   background-color: #188ce8;
 }
 
-.body-button-section {
-  background-color: #2f303a;
-  color: #ffffff;
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  margin-bottom: var(--base-margin);
-}
-
-.button-title {
+.button-section__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -232,23 +250,7 @@ li {
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-.overlay {
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(../imgs/bckgr.jpg);
 
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  max-width: 1600px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
-  outline: 1px solid var(--title-text-color);
-}
 /*Модалка*/
 
 .backdrop {
