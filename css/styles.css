@@ -35,7 +35,9 @@ body {
 body.modal-open {
   overflow-y: hidden;
 }
+
 /*Утилиты*/
+
 li {
   list-style-type: none;
 }
@@ -60,6 +62,7 @@ li {
 }
 
 /* Шапка */
+
 .site-header {
   background-color: var(--white);
   border: 1px solid #ececec;
@@ -137,9 +140,10 @@ li {
   background-color: var(--accent-color);
 }
 
-.header__contact {
+.header__contacts {
   display: flex;
   margin-left: auto;
+  margin-right: 0;
 }
 
 .header__link {
