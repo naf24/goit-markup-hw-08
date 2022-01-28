@@ -58,7 +58,7 @@ body.modal-open {
 }
 
 /* Шапка */
-.page-header {
+.site-header {
   background-color: var(--white);
   border: 1px solid #ececec;
 }
@@ -68,13 +68,14 @@ body.modal-open {
   margin-left: auto;
 }
 
-.header-connect {
+.site-header__connect {
   margin-left: auto;
 }
 
-.header-list {
+.site-nav__list {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -95,7 +96,7 @@ li {
   list-style-type: none;
 }
 
-.header-nav .header-link {
+.site-nav__link {
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--title-text-color);
@@ -108,16 +109,16 @@ li {
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.header-nav {
+.site-nav {
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.header-nav .current {
+.site-nav__current {
   color: var(--accent-color);
   position: relative;
 }
-.header-nav .current::after {
+.site-nav__current::after {
   content: "";
   position: absolute;
   left: 0;
@@ -130,11 +131,12 @@ li {
 
   background-color: var(--accent-color);
 }
-.contact-info {
+.site-header__contact {
   display: flex;
+  margin-left: auto;
 }
 
-.contact-info a {
+.site-header__contact a {
   color: var(--primary-text-color);
   text-decoration: none;
   font-weight: 500;
@@ -142,14 +144,11 @@ li {
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
-.contact-info {
-  display: flex;
-  margin-left: auto;
-}
-.contact-info.contact-mail {
+
+.site-header__contact.contact-mail {
   color: var(--accent-color);
 }
-.header-item:not(:last-child) {
+.site-header__item:not(:last-child) {
   margin-right: 50px;
 }
 .button-icon {
@@ -161,8 +160,8 @@ li {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-link:hover,
-.header-link:focus {
+.site-nav__link:hover,
+.site-nav__link:focus {
   color: var(--accent-color);
 }
 .contact-link {
