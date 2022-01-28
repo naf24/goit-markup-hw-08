@@ -17,39 +17,40 @@
       <body>
   
     <!-- Шапка -->
-    <header class="page-header">
+
+    <header class="header">
       <div class="container header-container">
         <a href="" class="logo">Web<span>Studio</span></a>
-        <nav class="header-nav">
-          <ul class="header-list list">
-            <li class="header-item">
-              <a href="./index.html" class="header-link ">Студия</a>
+        <nav class="site-nav">
+          <ul class="site-nav__list">
+            <li class="site-nav__item">
+              <a href="./index.html" class="site-nav__link">Студия</a>
             </li>
-            <li class="header-item">
-              <a href="./portfolio.html" class="header-current">Портфолио</a>
+            <li class="site-nav__item">
+              <a href="./portfolio.html" class="site-nav__current">Портфолио</a>
             </li>
-            <li class="header-item">
-              <a href="" class="header-link">Контакты</a>
+            <li class="site-nav__item">
+              <a href="" class="site-nav__link">Контакты</a>
             </li>
           </ul>
         </nav>
-        <div class="header-connect">
-          <ul class="contact-info list">
-            <li class="header-item">
-              <a
+        <div class="header__connect">
+          <ul class="header__contacts">
+            <li class="header__item">
+              <a class="header__link"
                 href="mailto:info@devstudio.com"
-                class="contact-mail contact-link"
+               
               >
-                <svg class="button-icon" width="16px" height="12px">
+                <svg class="header__icon" width="16px" height="12px">
                   <use href="imgs/icons.svg/sprite.svg#headerenvelope"></use>
                 </svg>
                 info@devstudio.com</a
               >
             </li>
 
-            <li class="header-item">
-              <a href="tel:+380961111111" class="phone contact-link">
-                <svg class="button-icon" width="10px" height="16px">
+            <li class="header__item">
+              <a class="header__link" href="tel:+380961111111" >
+                <svg class="header__icon" width="10px" height="16px">
                   <use href="imgs/icons.svg/sprite.svg#headersmartphone"></use>
                 </svg>
                 +38 096 111 11 11
@@ -60,13 +61,8 @@
       </div>
     </header>
 
-    
- 
-<main>
-  <section class="section projects-section">
-    <div class="container">
-  <h1 class="visually-hidden">Наши проекты</h1>
-  
+    <main>
+
  <!--Фильтр-->
  <div class="buttons-portfolio">
 <ul class="project-buttons menu">
