@@ -36,7 +36,9 @@ body.modal-open {
   overflow-y: hidden;
 }
 /*Утилиты*/
-
+li {
+  list-style-type: none;
+}
 .list {
   padding: 0;
   margin: 0;
@@ -75,7 +77,6 @@ body.modal-open {
 .site-nav__list {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 .logo {
@@ -92,10 +93,10 @@ body.modal-open {
   color: var(--title-text-color);
 }
 
-li {
-  list-style-type: none;
+.site-nav {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
-
 .site-nav__link {
   padding-top: 32px;
   padding-bottom: 32px;
@@ -109,9 +110,13 @@ li {
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.site-nav {
-  padding-top: 32px;
-  padding-bottom: 32px;
+
+.site-nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+.site-nav__link:hover,
+.site-nav__link:focus {
+  color: var(--accent-color);
 }
 
 .site-nav__current {
@@ -131,6 +136,7 @@ li {
 
   background-color: var(--accent-color);
 }
+
 .header__contact {
   display: flex;
   margin-left: auto;
@@ -160,10 +166,6 @@ li {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.site-nav__link:hover,
-.site-nav__link:focus {
-  color: var(--accent-color);
-}
 .header__link {
   display: flex;
   align-items: center;
