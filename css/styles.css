@@ -63,7 +63,7 @@ li {
 
 /* Шапка */
 
-.site-header {
+.header {
   background-color: var(--white);
   border: 1px solid #ececec;
 }
@@ -73,7 +73,7 @@ li {
   margin-left: auto;
 }
 
-.site-header__connect {
+.header__connect {
   margin-left: auto;
 }
 
@@ -157,6 +157,9 @@ li {
 
 .header__mail {
   color: var(--accent-color);
+}
+.header__item {
+  margin-left: auto;
 }
 .header__item:not(:last-child) {
   margin-right: 50px;
