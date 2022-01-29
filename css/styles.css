@@ -58,6 +58,7 @@ li {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  
   /* outline: 2px solid red; */
 }
 
@@ -66,6 +67,7 @@ li {
 .header {
   background-color: var(--white);
   border: 1px solid #ececec;
+  marg
 }
 .header-container {
   display: flex;
@@ -889,7 +891,7 @@ li {
 
 /* Портфолио */
 
-.header {
+.header .second {
   width: 1600px;
   position: absolute;
   margin-bottom: 100;
@@ -900,11 +902,11 @@ li {
 .img {
   margin-bottom: 50px;
 }
-.projects__buttons menu {
+.projects-buttons__menu {
   display: flex;
   justify-content: center;
 }
-.projects__btnitem .projects__btn {
+.projects-buttons__item .projects-buttons__btn {
   min-width: 8px;
   margin: 0;
   padding: 6px 22px 6px 22px;
@@ -928,17 +930,17 @@ li {
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: border-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.projects__btnitem .projects__btncurrent {
+.projects-buttons__current {
   background-color: var(--accent-color);
   color: var(--white);
 }
 
-.projects__btn:hover,
-.projects__btn:focus {
+.projects-buttons__btn:hover,
+.projects-buttons__btn:focus {
   color: var(--white);
   background-color: var(--accent-color);
 }
-.portfolio__buttons .projects__btnitem {
+.projects-buttons__menu {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -952,42 +954,42 @@ li {
   background-color: var(--background-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.projects__btnitem {
+.pprojects-buttons__item {
   border-radius: 4px;
   margin-right: 8px;
 }
-.projects__btnitem:not(:last-child) {
+.projects-buttons__item:not(:last-child) {
   margin-right: 8px;
 }
 /* Проекты */
 
-.projects__list {
+.projects-list {
   display: flex;
   flex-wrap: wrap;
   margin: -15px;
   text-decoration: none;
 }
-.projects__listitem {
+.projects-list__item {
   width: calc((100% - 90px) / 3);
   margin: 15px;
 
   cursor: pointer;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.projects__listitem:hover,
-.projects__listitem:focus {
+.projects-list__item:hover,
+.projects-list__item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.projects__info {
+.projects-list__info {
   padding: 20px 24px;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
 }
 
-.projects__name {
+.projects-list__name {
   font-size: 18px;
   line-height: 2;
   font-weight: 700;
@@ -995,7 +997,7 @@ li {
 
   color: var(--title-text-color);
 }
-.projects__text {
+.projects-list__text {
   font-size: 16px;
   line-height: 1.87;
 }
@@ -1014,7 +1016,7 @@ li {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: rgba(33, 150, 243, 0.9);
 }
-.projects__listitem:hover .projects-overlay__container {
+.projects-list__item:hover .projects-overlay__container {
   transform: translateY(0);
 }
 
