@@ -561,7 +561,6 @@ body.modal-open {
 
 .footer__contacts {
   justify-content: left;
-  margin-right: 70px;
 }
 
 .footer__contacts {
@@ -628,10 +627,12 @@ body.modal-open {
   line-height: 1.14;
   margin-bottom: 20px;
   text-decoration: none;
+  margin-left: 70px;
 }
 
 .footer__sociallinks {
   display: flex;
+  margin-left: 70px;
 }
 
 .footer__joinitem {
@@ -711,7 +712,7 @@ body.modal-open {
   line-height: 1.87;
   letter-spacing: 0.06em;
   border: 0;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
   color: var(--white);
   background-color: var(--accent-color);

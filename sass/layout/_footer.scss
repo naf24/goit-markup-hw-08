@@ -11,7 +11,6 @@
 }
 .footer__contacts {
   justify-content: left;
-  margin-right: 70px;
 }
 .footer__contacts {
   color: var(--light-grey);
@@ -65,8 +64,7 @@
 .footer__address:focus {
   color: var(--accent-color);
 }
-.footer__socialmedia {
-}
+
 .join {
   text-decoration: none;
   color: var(--white);
@@ -75,9 +73,11 @@
   line-height: 1.14;
   margin-bottom: 20px;
   text-decoration: none;
+  margin-left: 70px;
 }
 .footer__sociallinks {
   display: flex;
+  margin-left: 70px;
 }
 .footer__joinitem {
   width: 44px;
@@ -157,7 +157,7 @@
   line-height: 1.87;
   letter-spacing: 0.06em;
   border: 0;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
   color: var(--white);
   background-color: var(--accent-color);
