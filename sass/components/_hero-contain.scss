@@ -1,0 +1,8 @@
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__container:not(:last-child) {
+  margin-right: 30px;
+}
