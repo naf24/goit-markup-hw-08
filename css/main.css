@@ -398,6 +398,10 @@ body.modal-open {
   border: 1px solid #ececec;
 }
 
+.header span {
+  color: var(--title-text-color);
+}
+
 .button-section {
   background-color: #2f303a;
   color: #ffffff;
