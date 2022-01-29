@@ -555,14 +555,13 @@ body.modal-open {
 
 .footer__container {
   display: flex;
-  align-items: flex-start;
+  align-items: baseline;
   margin-top: 0;
 }
 
 .footer__contacts {
-  margin-right: 0;
-  margin-right: 70px;
   justify-content: left;
+  margin-right: 70px;
 }
 
 .footer__contacts {
@@ -621,10 +620,6 @@ body.modal-open {
   color: var(--accent-color);
 }
 
-.footer__socialmedia {
-  padding-top: 10px;
-}
-
 .join {
   text-decoration: none;
   color: var(--white);
@@ -669,7 +664,6 @@ body.modal-open {
   display: flex;
   align-items: flex-end;
   margin-left: 93px;
-  padding-top: 12px;
 }
 
 .footer__field {
