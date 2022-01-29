@@ -435,6 +435,7 @@ body.modal-open {
 
 .services__container:not(:last-child) {
   margin-right: 30px;
+  margin-bottom: 94px;
 }
 
 .services__actions {
