@@ -1,17 +1,17 @@
 .features-section {
   padding-bottom: 0;
+}
+.features-section__list {
+  display: flex;
+}
 
-  &__list {
-    display: flex;
-  }
-  &__part {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.features-section__part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-    margin-bottom: 30px;
-    width: 100%;
-    height: 120px;
-    background-color: var(--backround-middle);
-  }
+  margin-bottom: 30px;
+  width: 100%;
+  height: 120px;
+  background-color: var(--backround-middle);
 }

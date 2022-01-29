@@ -114,18 +114,19 @@
   margin-left: 93px;
   padding-top: 12px;
 
-  &__field {
+  .footer__field {
     display: flex;
     flex-direction: column;
   }
-  &__label {
-    display: inline-block;
-    margin-bottom: 20px;
-    font-size: 14px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: var(--white);
-  }
+}
+
+.footer-form__label {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--white);
 }
 
 .footer-form__input::placeholder {
