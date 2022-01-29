@@ -1,0 +1,7 @@
+.features-section__item {
+  width: 270px;
+}
+
+.features-section__item:not(:last-child) {
+  margin-right: 30px;
+}

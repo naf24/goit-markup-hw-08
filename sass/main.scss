@@ -1,24 +1,45 @@
 //BASE
 
-@import "./base/_reset.scss";
-@import "./base/_common.scss";
-@import "./base/_container.scss";
+@import "./base/_reset";
+@import "./base/_common";
+@import "./base/_container";
 
 //COMPONENTS
 
-@import "./components/_logo.scss";
-@import "./components/_site-nav.scss";
-@import "./components/_contacts.scss";
+@import "./components/_logo";
+@import "./components/_site-nav";
+@import "./components/_contacts";
+@import "./components/_overlay";
+@import "./components/_button";
+@import "./components/_title";
+@import "./components/_feat-icon";
+@import "./components/_feat-title";
+
+@import "./components/_contacts";
+@import "./components/_overlay";
+@import "./components/_button";
+@import "./components/_title";
 
 //LAYOUT
 
-@import "./layout/_header.scss";
+@import "./layout/_header";
+@import "./layout/_button-sect";
+@import "./layout/_features";
+@import "./layout/_services";
+
+@import "./layout/_header";
+@import "./layout/_button-sect";
+@import "./layout/_header";
+@import "./layout/_button-sect";
 
 //UTILS
 
-@import "./utils/_vars.scss";
-@import "./utils/_hidden.scss";
-@import "./utils/_lilist.scss";
+@import "./utils/_vars";
+@import "./utils/_hidden";
+@import "./utils/_lilist";
+@import "./utils/_feat-item";
+@import "./utils/_feat-text";
 
-@import "./utils/_hidden.scss";
-@import "./utils/_hidden.scss";
+@import "./utils/_vars";
+@import "./utils/_hidden";
+@import "./utils/_lilist";
