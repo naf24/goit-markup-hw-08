@@ -560,6 +560,7 @@ body.modal-open {
 }
 
 .footer__contacts {
+  display: block;
   justify-content: left;
 }
 
