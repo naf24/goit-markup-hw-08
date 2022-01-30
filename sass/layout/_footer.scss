@@ -1,19 +1,20 @@
 .footer {
   background-color: var(--background-dark);
-  padding-bottom: 60px;
-  padding-top: 60px;
-  left: 0px;
+  padding-bottom 60px;
+  padding-top 60px;
+ 
+  
+  
 }
 .footer-body {
   display: flex;
   align-items: flex-start;
+  
+  
 }
 
 .footer__contacts {
-  margin-right: 0;
-  margin-right: 70px;
-  align-items: left;
-  justify-content: left;
+margin-right: 70px;
 }
 
 .footer-logo__link {
@@ -73,7 +74,7 @@
 .footer-socialmedia {
 .footer__socialmedia {
   padding-top: 10px;
-  margin-left: 70px;
+  margin-right: 70px;
 }
 .join {
   text-decoration: none;
