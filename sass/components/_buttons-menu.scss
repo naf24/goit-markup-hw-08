@@ -3,27 +3,27 @@
   justify-content: center;
   font-family: inherit;
   margin-bottom: 50px;
+}
+.buttons-section__menu {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: inherit;
 
-  &__menu {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    font-family: inherit;
+  min-width: 70px;
+  margin: 0;
+  background-color: var(--background-color);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-    min-width: 70px;
-    margin: 0;
-    background-color: var(--background-color);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  &__item {
-    border-radius: 4px;
-    margin-right: 8px;
-  }
-  &__btn--current {
-    background-color: var(--accent-color);
-    color: var(--white);
-  }
+.buttons-section__item {
+  border-radius: 4px;
+  margin-right: 8px;
+}
+.buttons-section__btn--current {
+  background-color: var(--accent-color);
+  color: var(--white);
 }
 
 .buttons-section__btn {

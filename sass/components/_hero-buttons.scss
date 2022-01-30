@@ -4,7 +4,6 @@
   align-items: center;
   justify-content: center;
   background-color: var(--white);
-  margin-bottom: 30px;
 }
 
 .hero__buttons .hero__btn {
@@ -42,10 +41,6 @@
     background-color: var(--accent-color);
     fill: var(--white);
   }
-}
-
-.hero__buttons {
-  margin-bottom: 50px;
 }
 
 .hero__btn:hover .hero__icon,
