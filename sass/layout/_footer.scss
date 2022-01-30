@@ -4,73 +4,56 @@
   padding-top: 60px;
   left: 0px;
 }
-.footer__container {
+.footer-body {
   display: flex;
-  align-items: baseline;
-  margin-top: 0;
+  align-items: flex-start;
 }
-.footer__contacts {
-  display: block;
+.footer-left {
+  margin-right: 0;
+  margin-right: 70px;
+  align-items: left;
   justify-content: left;
 }
-.footer__contacts {
-  color: var(--light-grey);
-  font-family: inherit;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.7;
-  margin-bottom: 9px;
-  flex-shrink: 0;
-}
-.footer__contactlink {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-bottom: 9px;
-}
-
-.footer__contactitem {
-  display: block;
-}
-.footer__address {
-  display: block;
-  color: var(--white);
-  font-size: 14px;
-  line-height: 1.7;
-  margin-bottom: 9px;
-  text-decoration: none;
-}
-.footer__icon {
-  width: 20px;
-  height: 20px;
-  fill: var(--white);
-}
-
-.logo__footer {
+.logo-footer {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
   margin-bottom: 20px;
+
+  color: var(--accent-color);
+}
+.footer-logo {
   margin-bottom: 20px;
-  color: var(--accent-color);
-
-  .logo__footer span {
-    color: var(--white);
-  }
+}
+.logo-footer span {
+  color: var(--white);
 }
 
-.footer__contactlink:focus,
-.footer__contactlink:hover {
-  color: var(--accent-color);
+.footer-contact {
+  color: var(--light-grey);
+
+  font-family: inherit;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 9px;
+}
+.footer-contact a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-contacts .contact-adress {
+  color: var(--white);
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 9px;
 }
 
-.footer__address:hover,
-.footer__address:focus {
-  color: var(--accent-color);
+.footer-socialmedia {
+  padding-top: 10px;
 }
-
 .join {
   text-decoration: none;
   color: var(--white);
@@ -79,22 +62,19 @@
   line-height: 1.14;
   margin-bottom: 20px;
   text-decoration: none;
-  margin-left: 70px;
 }
-.footer__sociallinks {
+.join-sociallinks {
   display: flex;
-  margin-left: 70px;
 }
-.footer__joinitem {
+.join-item {
   width: 44px;
   height: 44px;
 }
-
-.footer__joinitem:not(:last-child) {
+.join-item:not(:last-child) {
   margin-right: 10px;
 }
 
-.footer__joinlink {
+.footersoc-item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,22 +86,34 @@
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.footer__joinlink:hover,
-.footer__joinlink:focus {
+.footersoc-item:hover,
+.footersoc-item:focus {
   background-color: var(--accent-color);
 }
-
-.footer__form {
+.footer-link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-link:focus,
+.footer-link:hover {
+  color: var(--accent-color);
+}
+.footersoc-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--white);
+}
+.footer-form {
   display: flex;
   align-items: flex-end;
+
   margin-left: 93px;
+  padding-top: 12px;
 }
-.footer__field {
+
+.footer-form__field {
   display: flex;
   flex-direction: column;
 }
-
 .footer-form__label {
   display: inline-block;
   margin-bottom: 20px;
@@ -129,12 +121,6 @@
   font-weight: 700;
   text-transform: uppercase;
   color: var(--white);
-}
-
-.footer-form__input::placeholder {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 16px;
-  line-height: 1.25;
 }
 
 .footer-form__input {
@@ -147,6 +133,12 @@
   background-color: rgba(33, 150, 243, 0);
   color: var(--white);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-form__input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  line-height: 1.25;
 }
 
 .footer-form__input:focus {
@@ -163,7 +155,7 @@
   line-height: 1.87;
   letter-spacing: 0.06em;
   border: 0;
-  border-radius: 5px;
+  border-radius: 4px;
   cursor: pointer;
   color: var(--white);
   background-color: var(--accent-color);
@@ -176,5 +168,6 @@
 
 .footer-form__icon {
   margin-left: 10px;
+
   fill: var(--white);
 }
