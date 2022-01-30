@@ -1,18 +1,18 @@
-.footer {
+footer {
   background-color: var(--background-dark);
   padding-bottom: 0px;
   padding-top: 0px;
-  
 
 }
 .footer-body {
  display: flex;
-  align-items: flex-start;
-  
+ align-items: flex-start;
+ box-sizing: inherit;
+ margin: 0;
+ 
 }
 
 .footer__contacts {
-  
   margin-right:0px;
 }
 
