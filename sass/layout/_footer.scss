@@ -65,12 +65,15 @@
   color: var(--white);
   font-size: 14px;
   line-height: 1.7;
+ 
+}
+.footer__contactitem:not(:last-child) {
   margin-bottom: 9px;
 }
-
 .footer-socialmedia {
 .footer__socialmedia {
   padding-top: 10px;
+  margin-left: 70px;
 }
 .join {
   text-decoration: none;
