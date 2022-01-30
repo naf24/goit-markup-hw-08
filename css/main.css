@@ -57,6 +57,16 @@ body.modal-open {
   color: var(--accent-color);
 }
 
+.logo__footer {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.11;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+}
+
 .logo__span--reverse {
   color: var(--white);
 }
@@ -546,78 +556,86 @@ body.modal-open {
   fill: var(--accent-color);
 }
 
-.footer {
+footer {
   background-color: var(--background-dark);
   padding-bottom: 60px;
   padding-top: 60px;
-  left: 0px;
 }
 
-.footer__container {
+.footer-body {
   display: flex;
-  align-items: baseline;
-  margin-top: 0;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .footer__contacts {
-  display: block;
-  justify-content: left;
+  margin-right: 0px;
 }
 
-.footer__contacts {
-  color: var(--light-grey);
-  font-family: inherit;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.7;
-  margin-bottom: 9px;
-  flex-shrink: 0;
-}
-
-.footer__contactlink {
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-bottom: 9px;
-}
-
-.footer__address {
-  color: var(--white);
-  font-size: 14px;
-  line-height: 1.7;
-  margin-bottom: 9px;
-  text-decoration: none;
-}
-
-.footer__icon {
-  width: 20px;
-  height: 20px;
-  fill: var(--white);
-}
-
-.logo__footer {
+.footer-logo__link {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
   margin-bottom: 20px;
+  color: var(--accent-color);
+}
+
+.footer-logo {
   margin-bottom: 20px;
+}
+
+.footer-logo {
+  margin-right: 93px;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.11;
   color: var(--accent-color);
 }
 
-.logo__footer .logo__footer span {
+.footer__contactitem {
+  color: var(--light-grey);
+  font-family: inherit;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  margin-bottom: 9px;
+}
+
+.footer__contactlink:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer__contactlink {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__contactlink:hover,
+.footer__contactlink:focus {
+  color: var(--accent-color);
+}
+
+.footer__adress {
   color: var(--white);
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer__contactlink:focus,
-.footer__contactlink:hover {
-  color: var(--accent-color);
-}
-
-.footer__address:hover,
-.footer__address:focus {
-  color: var(--accent-color);
+.footer__socialmedia {
+  display: block;
+  margin-left: 0;
+  margin-right: 70px;
 }
 
 .join {
@@ -628,12 +646,10 @@ body.modal-open {
   line-height: 1.14;
   margin-bottom: 20px;
   text-decoration: none;
-  margin-left: 70px;
 }
 
 .footer__sociallinks {
   display: flex;
-  margin-left: 70px;
 }
 
 .footer__joinitem {
@@ -662,13 +678,27 @@ body.modal-open {
   background-color: var(--accent-color);
 }
 
+.footer-link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer link:focus,
+.footer link:hover {
+  color: var(--accent-color);
+}
+
+.footer__icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--white);
+}
+
 .footer__form {
   display: flex;
   align-items: flex-end;
-  margin-left: 93px;
 }
 
-.footer__field {
+.footer-form__field {
   display: flex;
   flex-direction: column;
 }
@@ -682,12 +712,6 @@ body.modal-open {
   color: var(--white);
 }
 
-.footer-form__input::placeholder {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 16px;
-  line-height: 1.25;
-}
-
 .footer-form__input {
   margin-right: 12px;
   padding: 15px 15px;
@@ -697,6 +721,12 @@ body.modal-open {
   background-color: rgba(33, 150, 243, 0);
   color: var(--white);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-form__input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  line-height: 1.25;
 }
 
 .footer-form__input:focus {
@@ -713,7 +743,7 @@ body.modal-open {
   line-height: 1.87;
   letter-spacing: 0.06em;
   border: 0;
-  border-radius: 5px;
+  border-radius: 4px;
   cursor: pointer;
   color: var(--white);
   background-color: var(--accent-color);

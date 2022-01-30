@@ -1,19 +1,16 @@
 footer {
   background-color: var(--background-dark);
-  padding-bottom: 0px;
-  padding-top: 0px;
-
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 .footer-body {
- display: flex;
- align-items: flex-start;
- box-sizing: inherit;
- margin: 0;
- 
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .footer__contacts {
-  margin-right:0px;
+  margin-right: 0px;
 }
 
 .footer-logo__link {
@@ -23,7 +20,6 @@ footer {
   font-size: 26px;
   line-height: 1.2;
   margin-bottom: 20px;
-
   color: var(--accent-color);
 }
 
@@ -41,14 +37,9 @@ footer {
 
   color: var(--accent-color);
 }
-.logo span {
-  color: var(--white);
-}
-
 
 .footer__contactitem {
   color: var(--light-grey);
-
   font-family: inherit;
   font-style: normal;
   font-size: 14px;
@@ -56,26 +47,36 @@ footer {
   margin-bottom: 9px;
 }
 
-.footer__address {
-  text-decoration: none;
+.footer__contactlink:not(:last-child) {
+  margin-bottom: 9px;
+}
+.footer__contactlink {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer__contactlink:hover,
+.footer__contactlink:focus {
+  color: var(--accent-color);
 }
 
-.footer__contacts .footer__contactlink {
+.footer__adress {
   color: var(--white);
   font-size: 14px;
   line-height: 1.7;
- 
+  text-decoration: none;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer__contactitem:not(:last-child) {
-  margin-bottom: 9px;
-}
-
 .footer__socialmedia {
   display: block;
-  padding-top: 10px;
+  margin-left: 0;
   margin-right: 70px;
 }
+
 .join {
   text-decoration: none;
   color: var(--white);
@@ -97,7 +98,6 @@ footer {
 .footer__joinitem:not(:last-child) {
   margin-right: 10px;
 }
-
 
 .footer__joinlink {
   display: flex;
@@ -124,19 +124,16 @@ footer {
 .footer link:hover {
   color: var(--accent-color);
 }
-.footersoc-icon {
+
 .footer__icon {
   width: 20px;
   height: 20px;
   fill: var(--white);
 }
-.footer-form {
+
 .footer__form {
   display: flex;
   align-items: flex-end;
-
-  margin-left: 93px;
-  padding-top: 12px;
 }
 .footer-form__field {
   display: flex;
