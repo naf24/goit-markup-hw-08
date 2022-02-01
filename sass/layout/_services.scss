@@ -1,8 +1,11 @@
-.services__container {
+.services {
+  padding-bottom: 94px;
+}
+
+.services__list {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 94px;
 }
 
 .services__container:not(:last-child) {

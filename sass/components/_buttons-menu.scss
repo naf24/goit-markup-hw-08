@@ -3,17 +3,13 @@
   justify-content: center;
   font-family: inherit;
   margin-bottom: 50px;
-}
-.buttons {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   min-width: 70px;
-  margin: 0;
-  background-color: var(--background-color);
 }
-.button__item {
+.buttons__btn {
   min-width: 8px;
   margin: 0;
   padding: 6px 22px 6px 22px;
@@ -35,7 +31,7 @@
   margin-right: 8px;
 }
 
-.buttons__item {
+.buttons__btn {
   border-radius: 4px;
   &:hover {
     color: var(--white);
