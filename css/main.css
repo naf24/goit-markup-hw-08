@@ -534,8 +534,9 @@ body.modal-open {
 }
 
 .clients__link:focus, .clients__link:hover {
-  border-color: red;
-  color: red;
+  border-color: #2196f3;
+  color: #2196f3;
+  fill: #2196f3;
 }
 
 .clients__item {
