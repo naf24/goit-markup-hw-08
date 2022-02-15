@@ -1,14 +1,14 @@
-.hero {
+.team {
   background-color: #f5f4fa;
   margin-bottom: var(--base-margin);
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.hero__list {
+.team__list {
   display: flex;
 }
-.hero__position {
+.team__position {
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -17,12 +17,12 @@
   letter-spacing: 0.03em;
   text-align: center;
 }
-.hero__text {
+.team__text {
   padding: 30px 30px 0px 30px;
   margin-bottom: 16px;
 }
 
-.hero__title {
+.team__title {
   color: var(--title-text-color);
   font-family: inherit;
   font-weight: bold;
@@ -32,7 +32,7 @@
   margin-bottom: 50px;
 }
 
-.hero__name {
+.team__name {
   color: var(--title-text-color);
   font-family: inherit;
   font-weight: 500;
