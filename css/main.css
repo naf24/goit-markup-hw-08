@@ -697,6 +697,17 @@ body.modal-open {
   margin-bottom: 50px;
 }
 
+.clients__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1200px) {
+  .clients__list {
+    flex-wrap: nowrap;
+  }
+}
+
 .clients__link {
   display: flex;
   border: 1px solid #afb1b8;
