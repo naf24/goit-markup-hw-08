@@ -28,7 +28,7 @@ footer {
   // margin-right: 0px;
   @media screen and (min-width: 768px) {
     text-align: center;
-    margin-bottom: -52px;
+    margin-bottom: 52px;
   }
 }
 
@@ -116,11 +116,11 @@ footer {
   margin-bottom: 20px;
   text-decoration: none;
 }
-.subscribe {
-  // @media screen and (min-width: 768px) and (max-width: 1199px) {
-  //   padding-top: 52px;
-  // }
-}
+// .subscribe {
+// @media screen and (min-width: 768px) and (max-width: 1199px) {
+//   padding-top: 52px;
+// }
+
 .subscribe__title {
   text-decoration: none;
   color: var(--white);

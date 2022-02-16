@@ -9,7 +9,7 @@
 .features__list {
   display: block;
   @media screen and (min-width: 768px) {
-    // display: flex;
+    display: flex;
     flex-wrap: wrap;
   }
   @media screen and (min-width: 1200px) {
@@ -45,12 +45,21 @@
 }
 
 .features__part {
+  height: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
-
   margin-bottom: 30px;
-  width: 100%;
-  height: 120px;
   background-color: var(--backround-middle);
+
+  // @media screen and (max-width: 767px) {
+  // width: 450px;}
+
+  // @media screen and (min-width: 768px) and (max-width: 1199px) {
+  //   width: 354px;
+  // }
+
+  // @media screen and (min-width: 1200px) {
+  //   width: 270px;
+  // }
 }
