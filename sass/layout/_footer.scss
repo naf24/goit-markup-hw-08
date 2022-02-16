@@ -1,12 +1,24 @@
 footer {
+  width: 100%;
   background-color: var(--background-dark);
   padding-bottom: 60px;
   padding-top: 60px;
-  text-align: center;
+  @media screen and (max-width: 767px) {
+    text-align: center;
+  }
 }
-.footer-body {
-  @media screen and (min-width: 1200px) {
+
+.footer-blocks {
+  @media screen and (min-width: 768px) {
     display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;
+    padding: 0px 15px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+  }
+  @media screen and (min-width: 1200px) {
     align-items: flex-start;
     justify-content: space-between;
   }
@@ -14,6 +26,10 @@ footer {
 
 .footer__contacts {
   margin-right: 0px;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 60px;
+    text-align: center;
+  }
 }
 
 .footer-logo__link {
