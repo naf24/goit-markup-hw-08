@@ -1,7 +1,9 @@
 .services {
-  padding-bottom: 94px;
-  display: none;
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
   @media screen and (min-width: 1200px) {
+    padding-bottom: 94px;
   }
 }
 .services__title {
@@ -16,7 +18,7 @@
 }
 .services__list {
   @media screen and (min-width: 1200px) {
-    // display: flex;
+    display: flex;
     align-items: center;
     justify-content: space-between;
   }
@@ -29,7 +31,7 @@
   position: absolute;
   top: 77%;
   left: 0;
-  // display: flex;
+  display: flex;
 }
 .photos__thumb {
   position: relative;
