@@ -72,9 +72,11 @@ body.modal-open {
   color: var(--white);
 }
 
-.site-nav__list {
-  display: flex;
-  align-items: center;
+@media screen and (min-width: 768px) {
+  .site-nav__list {
+    display: flex;
+    align-items: center;
+  }
 }
 
 .site-nav__link {
@@ -455,12 +457,21 @@ body.modal-open {
 }
 
 .features {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.features__list {
-  display: flex;
+@media screen and (min-width: 1200px) {
+  .features {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .features__list {
+    display: flex;
+  }
 }
 
 .features__part {

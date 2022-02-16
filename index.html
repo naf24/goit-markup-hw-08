@@ -91,7 +91,7 @@
         <ul class="features__list">
           <li class="features__item">
             <div class="features__part">
-              <svg class="features__icon">
+              <svg class="features__icon" width="70px" height="70px">
                 <use href="imgs/icons.svg/sprite.svg#featantenna"></use>
               </svg>
             </div>
@@ -104,7 +104,7 @@
 
           <li class="features__item">
             <div class="features__part">
-              <svg class="features__icon">
+              <svg class="features__icon" width="70px" height="70px">
                 <use href="imgs/icons.svg/sprite.svg#featclock"></use>
               </svg>
             </div>
@@ -117,7 +117,7 @@
 
           <li class="features__item">
             <div class="features__part">
-              <svg class="features__icon">
+              <svg class="features__icon" width="70px" height="70px">
                 <use href="imgs/icons.svg/sprite.svg#featdiagram"></use>
               </svg>
             </div>
@@ -130,7 +130,7 @@
 
           <li class="features__item">
             <div class="features__part">
-              <svg class="features__icon">
+              <svg class="features__icon" width="70px" height="70px">
                 <use href="imgs/icons.svg/sprite.svg#featastronaut"></use>
               </svg>
             </div>
@@ -154,12 +154,34 @@
 
             <li class="services__item">
               
-              <img
-                src="./imgs/img1.jpg"
-                alt="На столе стоит компьютер, руки набирают что-то на клавиатуре"
-                width="370"
-                height="294"
-              />
+              <div class="photos__thumb">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop/whattodo-1-1200@1x.webp 1x,
+                      ./images/desktop/whattodo-1-1200@2x.webp 2x
+                    "
+                    type="image/webp"
+                    media="(min-width: 1200px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/desktop/whattodo-1-1200@1x.jpg 1x,
+                      ./images/desktop/whattodo-1-1200@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+
+                  <img
+                    src="./images/desktop/whattodo-1-1200@1x.jpg"
+                    loading="lazy"
+                    alt="Человек печатает текст на клавиатуре"
+                    width="370"
+                    height="294"
+                  />
+                </picture>
+              </div>
               <div class="services__actions">
             <link aria-label="ДЕСКТОПНЫЕ ПРИЛОЖЕНИЯ" class="item" >
             <svg class="icon" >
@@ -170,12 +192,34 @@
           </div>
             </li>            
             <li class="services__item">
-              <img
-                src="./imgs/img2.jpg"
-                alt="На столе стоит компьютер, левая рука держит телефон, правая прикасается к тачпаду"
-                width="370"
-                height="294"
-              />
+              <div class="photos__thumb">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop/whattodo-2-1200@1x.webp 1x,
+                      ./images/desktop/whattodo-2-1200@2x.webp 2x
+                    "
+                    type="image/webp"
+                    media="(min-width: 1200px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/desktop/whattodo-2-1200@1x.jpg 1x,
+                      ./images/desktop/whattodo-2-1200@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+
+                  <img
+                    src="./images/desktop/whattodo-2-1200@2x.jpg"
+                    loading="lazy"
+                    alt="Человек смотрит на смартфон перед ноутбуком"
+                    width="370"
+                    height="294"
+                  />
+                </picture>
+              </div>
               <div class="services__actions">
               <link aria-label="МОБИЛЬНЫЕ ПРИЛОЖЕНИЯ" class="item">
               <svg class="icon">
@@ -185,12 +229,34 @@
               </div>
             </li>
             <li class="services__item">
-              <img
-                src="./imgs/img3.jpg"
-                alt="На столе стоит компьютер, левая рука держит планшет с палитрой цветов, правая рука держит стилиус"
-                width="370"
-                height="294"
-              />
+             <div class="photos__thumb">
+                <picture>
+                  <source
+                    srcset="
+                      ./images/desktop/whattodo-3-1200@1x.webp 1x,
+                      ./images/desktop/whattodo-3-1200@2x.webp 2x
+                    "
+                    type="image/webp"
+                    media="(min-width: 1200px)"
+                  />
+
+                  <source
+                    srcset="
+                      ./images/desktop/whattodo-3-1200@1x.jpg 1x,
+                      ./images/desktop/whattodo-3-1200@2x.jpg 2x
+                    "
+                    media="(min-width: 1200px)"
+                  />
+
+                  <img
+                    src="./images/desktop/whattodo-3-1200@2x.jpg"
+                    loading="lazy"
+                    alt="Цветовая палитра на экране планшета"
+                    width="370"
+                    height="294"
+                  />
+                </picture>
+             </div>
               <div class="services__actions">
               <link aria-label="ДИЗАЙНЕРСКИЕ РЕШЕНИЯ" class="item">
               <svg class="icon">

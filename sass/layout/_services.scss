@@ -1,13 +1,17 @@
 .services {
   padding-bottom: 94px;
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
 }
 
 .services__list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }
-
 .services__container:not(:last-child) {
   margin-right: 30px;
   margin-bottom: 94px;
