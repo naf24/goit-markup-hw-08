@@ -462,7 +462,6 @@ body.modal-open {
 
 .header {
   width: 100%;
-  display: block;
 }
 
 .header-studio {
@@ -473,9 +472,7 @@ body.modal-open {
 @media screen and (max-width: 767px) {
   .header-container {
     position: relative;
-    display: inline-flex;
     height: 60px;
-    align-items: center;
     margin: auto;
   }
 }
@@ -1358,14 +1355,14 @@ footer {
 @media screen and (min-width: 480px) and (max-width: 1199px) {
   .modal {
     width: 450px;
-    height: 609px;
+    height: 630px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .modal {
     width: 528px;
-    height: 581px;
+    height: 681px;
   }
 }
 
@@ -1599,6 +1596,12 @@ footer {
   padding-right: 83px;
   padding-bottom: 48px;
   padding-left: 40px;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .mobile-menu.is-hidden .content {
