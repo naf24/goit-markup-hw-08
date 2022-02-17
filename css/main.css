@@ -80,7 +80,8 @@ body.modal-open {
 
 @media screen and (max-width: 767px) {
   .logo {
-    padding-bottom: 16px;
+    font-size: 24px;
+    line-height: 1.16;
   }
 }
 
@@ -102,7 +103,15 @@ body.modal-open {
   }
 }
 
-.logo__footer {
+@media screen and (max-width: 767px) {
+  .logo,
+  .logo__span {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+
+.logo .logo__footer {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
@@ -464,6 +473,7 @@ body.modal-open {
 @media screen and (max-width: 767px) {
   .header-container {
     position: relative;
+    display: inline-flex;
     height: 60px;
     align-items: center;
     margin: auto;

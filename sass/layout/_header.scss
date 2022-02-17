@@ -10,6 +10,7 @@
 .header-container {
   @media screen and (max-width: 767px) {
     position: relative;
+    display: inline-flex;
     height: 60px;
     align-items: center;
     margin: auto;

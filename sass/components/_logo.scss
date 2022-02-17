@@ -6,9 +6,8 @@
   line-height: 1.11;
   color: var(--accent-color);
   @media screen and (max-width: 767px) {
-    padding-bottom: 16px;
-    // font-size: 24px;
-    // line-height: 1.16;
+    font-size: 24px;
+    line-height: 1.16;
   }
   @media screen and (min-width: 768px) {
     margin-right: 88px;
@@ -23,8 +22,14 @@
     font-size: 26px;
   }
 }
-
-.logo__footer {
+.logo,
+.logo__span {
+  @media screen and (max-width: 767px) {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
+.logo .logo__footer {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
