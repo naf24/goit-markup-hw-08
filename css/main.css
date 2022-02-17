@@ -74,17 +74,13 @@ body.modal-open {
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-  font-size: 26px;
   line-height: 1.11;
   color: var(--accent-color);
 }
 
 @media screen and (max-width: 767px) {
   .logo {
-    padding-top: 16px;
     padding-bottom: 16px;
-    font-size: 24px;
-    line-height: 1.16;
   }
 }
 
@@ -93,6 +89,7 @@ body.modal-open {
     margin-right: 88px;
     padding-top: 24px;
     padding-bottom: 24px;
+    font-size: 26px;
   }
 }
 
@@ -101,6 +98,7 @@ body.modal-open {
     margin-right: 93px;
     padding-top: 32px;
     padding-bottom: 32px;
+    font-size: 26px;
   }
 }
 
@@ -131,7 +129,7 @@ body.modal-open {
 
 @media screen and (max-width: 1199px) {
   .site-nav {
-    margin-right: 80px;
+    margin-right: 73px;
   }
 }
 
@@ -455,6 +453,7 @@ body.modal-open {
 
 .header {
   width: 100%;
+  display: block;
 }
 
 .header-studio {
@@ -467,7 +466,7 @@ body.modal-open {
     position: relative;
     height: 60px;
     align-items: center;
-    margin-left: auto;
+    margin: auto;
   }
 }
 
@@ -1335,10 +1334,11 @@ footer {
 
 .modal {
   position: absolute;
+  box-sizing: border-box;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  padding: 40px;
+  padding: 40px 40px 40px 40px;
   background-color: var(--white);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
