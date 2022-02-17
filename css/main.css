@@ -87,12 +87,17 @@ body.modal-open {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) {
   .logo {
     margin-right: 88px;
     padding-top: 24px;
     padding-bottom: 24px;
     font-size: 26px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
   }
 }
 
@@ -103,7 +108,7 @@ body.modal-open {
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: 26px;
-    line-height: 1.11;
+    line-height: 1.19;
     color: var(--accent-color);
   }
 }
@@ -128,11 +133,11 @@ body.modal-open {
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1199px) and (max-width: 1199px) {
   .site-nav {
     padding-top: 32px;
     padding-bottom: 32px;
-    margin-right: 73px;
+    margin-right: 68px;
   }
 }
 
