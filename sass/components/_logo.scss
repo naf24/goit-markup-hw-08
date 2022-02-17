@@ -1,4 +1,6 @@
 .logo {
+  padding-top: 16px;
+  padding-bottom: 16px;
   text-decoration: none;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
@@ -22,13 +24,7 @@
     font-size: 26px;
   }
 }
-.logo,
-.logo__span {
-  @media screen and (max-width: 767px) {
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
-}
+
 .logo .logo__footer {
   text-decoration: none;
   font-family: "Raleway", sans-serif;

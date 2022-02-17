@@ -27,6 +27,7 @@
   background-color: #ffffff;
   z-index: 999;
   opacity: 1;
+  overflow-y: scroll;
   transition: opacity 200ms linear, visibility 200ms linear;
   &.is-hidden {
     visibility: hidden;
@@ -36,7 +37,7 @@
 }
 
 .content {
-  position: absolute;
+  // position: absolute;
   top: 0;
   left: 0;
   height: 100%;
