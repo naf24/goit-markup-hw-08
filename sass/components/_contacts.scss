@@ -6,9 +6,11 @@
 }
 
 .header__contacts {
-  // display: flex;
   margin-left: auto;
   margin-right: 0;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+  }
 }
 
 .header__link {
