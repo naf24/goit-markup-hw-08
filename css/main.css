@@ -587,7 +587,6 @@ body.modal-open {
 .hero__button {
   min-width: 200px;
   margin: 0;
-  padding-bottom: 200px;
   border-radius: 4px;
   padding: 10px 32px;
   background-color: var(--accent-color);
@@ -832,11 +831,26 @@ body.modal-open {
 .team__title {
   color: var(--title-text-color);
   font-family: inherit;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.67;
   text-align: center;
-  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1199px) {
+  .team__title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .team__title {
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.67;
+    font-weight: bold;
+  }
 }
 
 .team__name {
@@ -852,11 +866,27 @@ body.modal-open {
 .clients__title {
   color: var(--title-text-color);
   font-family: inherit;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.67;
   text-align: center;
-  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 1199px) {
+  .clients__title {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .clients__title {
+    font-size: 36px;
+    line-height: 1.67;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bold;
+  }
 }
 
 .clients__list {
