@@ -399,6 +399,12 @@ body.modal-open {
   }
 }
 
+@media screen and (max-width: 767px) {
+  .buttons__item:not(:nth-last-child(-n + 2)) {
+    margin-bottom: 15px;
+  }
+}
+
 .buttons__item:not(:last-child) {
   margin-right: 8px;
 }
