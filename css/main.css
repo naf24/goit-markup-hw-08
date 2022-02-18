@@ -811,8 +811,10 @@ body.modal-open {
 @media screen and (max-width: 767px) {
   .team__item {
     width: 100%;
-    margin-bottom: 30px;
     padding-bottom: 24px;
+  }
+  .team__item:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
 
