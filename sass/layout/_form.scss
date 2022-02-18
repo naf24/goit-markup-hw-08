@@ -153,6 +153,8 @@
   justify-content: center;
   margin-bottom: 30px;
   cursor: pointer;
+  @media screen and (min-width: 1200px) {
+  }
 }
 .checkbox__input {
   position: absolute;
@@ -179,6 +181,13 @@
   background-position: center;
 }
 .checkbox__agreement {
+  @media screen and (max-width: 1199px) {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
   font-size: 14px;
   line-height: 1.7;
 

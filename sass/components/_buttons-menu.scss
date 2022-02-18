@@ -18,6 +18,9 @@
     margin-bottom: 50px;
   }
 }
+.buttons__item:not(:last-child) {
+  margin-right: 8px;
+}
 .buttons__btn {
   min-width: 8px;
   margin: 0;
@@ -35,9 +38,6 @@
   letter-spacing: 0.03em;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.buttons__item:not(:last-child) {
-  margin-right: 8px;
 }
 
 .buttons__btn {
