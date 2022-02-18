@@ -481,13 +481,25 @@ body.modal-open {
 
 .features__title {
   color: var(--title-text-color);
-  font-weight: bold;
   font-size: 14px;
-  line-height: 1.1;
+  font-weight: bold;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  text-align: left;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .features__title {
+    text-align: center;
+    line-height: 1.14;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .features__title {
+    text-align: left;
+    line-height: 1.1;
+  }
 }
 
 .header {
